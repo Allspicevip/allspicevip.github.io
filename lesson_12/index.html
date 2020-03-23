@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Перше верстання на bootstrap</title>	
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+<body>
+<div class="section">
+	
+	<div class="container">
+		<!-- Перший row (стрічка) під заголовок -->	
+		<div class="row">
+			<div class="col-lg-6 offset-lg-3">
+				<h1 class="header text-center">
+					<span>Отримайте відео-інструкцію</span>
+					<strong class="text-uppercase">Як заробити свій перший міліон</strong>
+				</h1>
+			</div>	
+		</div>
+		<!-- Другий row (стрічка) під відео  -->
+		<div class="row">
+			<div class="col-lg-6 offset-lg-1">
+				<div class="video">
+					<iframe width="100%" height="315" src="https://www.youtube.com/embed/R1P5vwtLBsA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="form">
+					<p class="form-header text-center">Ведіть свій емейл</p>
+					<form action="#">					
+					  	<input type="text" class="form-control form-control-lg" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="Ваше ім'я">
+						<input type="text" class="form-control form-control-lg" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="Ваш Емейл">
+						<button type="button" class="btn btn-primary btn-lg btn-block form-btn">Отримати інструкцію</button>
+					</form>
+				</div>
+			</div>
+		</div>	
+	</div>
+</div>
+<div class="section">
+	<div class="container">
+		<!-- row під заголовок -->
+		<div class="row">
+			<div class="col-lg-12">
+				<h2 class="section-header text-uppercase text-center">Чому це треба зробити зараз?</h2>
+			</div>
+		</div>
+		<!-- Блок під переваги -->
+		<div class="feature text-center">
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="feature-box">
+						<img src="img/1.png" alt="1 перевага">
+						<p>Перша перевага</p>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="feature-box">
+						<img src="img/2.png" alt="2 перевага">
+						<p>Друга перевага</p>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="feature-box">
+						<img src="img/3.png" alt="3 перевага">
+						<p>Третя перевага</p>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="feature-box">
+						<img src="img/4.png" alt="4 перевага">
+						<p>Четверта	перевага</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Кнопка отримати інструкцію -->
+		<div class="text-center"><button class=" btn btn-primary btn-lg form-btn">Отримати інструкцію</button></div>
+	</div>
+</div>	
+
+
+</body>
+</html>
