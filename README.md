@@ -14,4 +14,4 @@
 Урок 9 - Верстання за допомогою bootstrap    
 Урок 10 - Препроцесор less для CSS    
 Урок 11 - Спіпети    
-[Урок 12](https://allspicevip.github.io/lesson_12/) - мій перший bootstrap шаблон.    
+[Урок 12](https://allspicevip.github.io/lesson_12/ "мій перший bootstrap шаблон") - Хостінг від github.    
