@@ -2,4 +2,4 @@
 
 Уроки які я роблю
 
-[Урок 12](https://allspicevip.github.io/lesson_12/)
+[Урок 12](https://allspicevip.github.io/lesson_12/) - мій перший bootstrap шаблон.
