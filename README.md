@@ -15,4 +15,4 @@
 Урок 10 - Препроцесор less для CSS    
 Урок 11 - Сніпети    
 [Урок 12](https://allspicevip.github.io/lesson_12/ "мій перший bootstrap шаблон") - Хостінг від github.    
-[Урок 13](https://allspicevip.github.io/lesson_13/ "піксель перфект") - Піксель перфект (верстання піксель в піксель).
+[Урок 13](https://allspicevip.github.io/lesson_13//Projeckt/src "піксель перфект") - Піксель перфект (верстання піксель в піксель).
