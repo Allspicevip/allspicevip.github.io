@@ -14,7 +14,7 @@
     <link rel="image_src" href="img/preview.jpg" />
 
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Подбор шрифтов</title>
+    <title>Підбір шрифтів</title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="icon" href="img/favicon/favicon-16.png" sizes="16x16" type="image/png">
     <link rel="icon" href="img/favicon/favicon-32.png" sizes="32x32" type="image/png">
@@ -36,21 +36,56 @@
     	<div class="container">
   				<div class="text-box"><input type="search" class="form-control" autofocus placeholder="Введите свою фразу"></div>
   				<div class="fonts">
-  					<p class="resault Open-Sans">Начните писать фразу</p>
-  					<small>Вот так выглядит шрифт <strong>Open Sans</strong></small>
+  					<p class="resault Open-Sans">Почніть писати фразу</p>
+  					<small>Ось так виглядає шрифт <strong>Open Sans</strong></small>
   					<hr>
-  					<p class="resault Bebas">Начните писать фразу</p>
-  					<small>Вот так выглядит шрифт <strong>Bebas</strong></small>
+  					<p class="resault Bebas">Почніть писати фразу</p>
+  					<small>Ось так виглядає шрифт <strong>Bebas</strong></small>
   					<hr>
-  					<p class="resault Lato">Начните писать фразу</p>
-  					<small>Вот так выглядит шрифт <strong>Lato</strong></small>
+  					<p class="resault Lato">Почніть писати фразу</p>
+  					<small>Ось так виглядає шрифт <strong>Lato</strong></small>
   					<hr>
-  					<p class="resault Lobster">Начните писать фразу</p>
-  					<small>Вот так выглядит шрифт <strong>Lobster</strong></small>
+  					<p class="resault Lobster">Почніть писати фразу</p>
+  					<small>Ось так виглядає шрифт <strong>Lobster</strong></small>
   					
   				</div>
     	</div>
     </header>
+
+    <div class="infobox">
+      <h2>Підключення шрифтів на сайт</h2>
+      <p>Найпопулярніші 2 способи, через гугол, або файли на сайті.</p>
+    </div>
+
+    <div class="infobox">
+      <h2>1 Спосіб за допомогою гугл</h2>
+      <p>https://fonts.google.com/ - на цьому сайті. Пояснювати як - немає сенсу.</p>
+    </div>
+
+    <div class="infobox">
+      <h2>2 спосіб. Завантажуємо файли на сайт</h2>
+      <p>
+        1. Створюємо папку з назвою "fonts"<br>
+        2. Завантажуємо в ту папку всі необхідні шрифти (формат <b>ttf</b>) <br>
+        3. в файлі стилів прописуємо: <br>
+<span class="cod">
+        @font-face {  <br>       
+        font-family: "RalewayRegular"; <br>        
+        src: url("../fonts/RalewayRegular.ttf") format("truetype"); <br>
+font-style: normal; <br>
+font-weight: normal; <br>
+} <br>
+
+</span><br>
+      4. Для потрібного класу чи тега присвоюємо даний шрифт:<br>
+      <span class="cod">
+h1{<br>
+font-family: "RalewayRegular";<br>
+}<br>
+      </span>  
+
+      </p>
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
