@@ -59,3 +59,15 @@ small {
 .Lobster {
 	font-family: "Lobster-Regular", cursive;
 }
+
+.infobox {
+	padding: 10px;
+	width: 700px;
+	margin: 20px auto;
+	background: #aaa;
+}
+
+.cod {
+	display: inline-block;
+	background: #ddd;
+}
